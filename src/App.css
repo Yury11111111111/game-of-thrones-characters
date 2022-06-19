@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 0px solid red;
+  }
+  
+  img {
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .container {
+    background-color: rgb(34, 41, 46);
+    color: white;
+  }
+  
+  .charachersBlock {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+  }
+  
+  .character__img {
+    height: 300px;
+  }
+  
+  .character {
+    margin: 0 10px;
+  }
+  
+  .character__name {
+    margin-bottom: 20px;
+    font-size: large;
+    text-align: center;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .more {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .all_house_name {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .house_name {
+    margin-right: 10px;
+    display: table-cell;
+  }
+  
+  .label {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
